@@ -6,49 +6,32 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 251, 2);
-    box-shadow: 0 0 20px 0 rgba(128, 126, 34, 0.7);
 }
 
-header #logomarca{
-    width: 200px;
-    height: 200px;
+#mainlogomarca{
+    width: 220px;
+    height: 220px;
 }
 
-#nomedaloja{
-    text-align: center;
-    color: red;
-}
-
-.navprodut{
-    display: flex;
-    align-items: center;
-    grid-gap: 160px;
-}
-
-.navprodut img{
-    /* display: flex; */
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-}
-
-.menunave{
+.main-nave{
     background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     height: 45px;
+    box-shadow: 0 0 20px 5px rgba(128, 126, 34, 0.7);
 }
 
 
-.menunave a {
-    padding: 59px;
+.main-nave a {
+    padding: 58px;
     font-size: 16px;
     color: aliceblue;
     text-decoration: none;
